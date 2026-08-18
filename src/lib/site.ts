@@ -2,7 +2,7 @@
 export const SITE = {
   name: "Nubex",
   logoUrl: "/nubex-logo-transparent.png",
-  formacionUrl: "https://capacitaciones-codemakers.ai.studio/",
+  formacionUrl: "https://capacitaciones.nubex.dev/",
   email: "josechavarrorojas@gmail.com",
   contactPerson: "Jose Chavarro Rojas",
   phone: "+57 312 596 4567",
