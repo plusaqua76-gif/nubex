@@ -182,7 +182,7 @@ function Index() {
       >
         <nav className="mx-auto flex h-20 max-w-6xl items-center justify-between px-5">
           <a href="#top" className="flex items-center">
-            <Logo className="h-14 md:h-16" />
+            <Logo className="h-10 md:h-11" />
           </a>
           <div className="hidden items-center gap-7 md:flex">
             {NAV.map((n) =>
@@ -688,7 +688,7 @@ function Index() {
         <div className="mx-auto max-w-6xl px-5">
           <div className="flex flex-col gap-10 md:flex-row md:justify-between">
             <div>
-              <Logo className="h-16 md:h-20" />
+              <Logo className="h-11 md:h-13" />
               <p className="mt-4 max-w-xs text-sm text-muted-foreground">
                 Desarrollo de software a la medida con más de 10 años de trayectoria.
               </p>

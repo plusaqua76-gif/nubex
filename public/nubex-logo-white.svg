@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" width="1200" height="480">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="15 15 500 185" width="1000" height="370" fill="none">
   <defs>
     <linearGradient id="nubexGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#38bdf8" />
@@ -6,29 +6,35 @@
       <stop offset="100%" stop-color="#818cf8" />
     </linearGradient>
     <linearGradient id="nubexAccentDark" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0284c7" />
-      <stop offset="100%" stop-color="#38bdf8" />
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#22d3ee" />
     </linearGradient>
+    <style>
+      .cloud-dash { animation: dashFlow 8s linear infinite; }
+      @keyframes dashFlow { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -96; } }
+    </style>
   </defs>
-  <g transform="translate(30, 20)">
+  <g>
     <!-- Cloud Left Contour -->
-    <path d="M 60 140 C 40 140 25 125 25 105 C 25 87 37 72 55 70 C 60 45 82 25 110 25 C 135 25 156 41 164 63 C 171 60 179 58 187 58 C 212 58 232 78 232 103 C 232 125 216 140 195 140" fill="none" stroke="url(#nubexAccentDark)" stroke-width="9" stroke-linecap="round" stroke-dasharray="7 5" opacity="0.8"/>
+    <path d="M 60 140 C 40 140 25 125 25 105 C 25 87 37 72 55 70 C 60 45 82 25 110 25 C 135 25 156 41 164 63 C 171 60 179 58 187 58 C 212 58 232 78 232 103 C 232 125 216 140 195 140" fill="none" stroke="url(#nubexAccentDark)" stroke-width="9" stroke-linecap="round" stroke-dasharray="9 7" class="cloud-dash"/>
     
     <!-- Stylized Modern 'N' -->
     <path d="M 70 185 V 75 L 145 185 V 75" fill="none" stroke="url(#nubexGradDark)" stroke-width="23" stroke-linecap="round" stroke-linejoin="round"/>
     
     <!-- Circuit lines & Dots -->
-    <path d="M 165 100 H 200 L 215 115 H 230" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
-    <circle cx="233" cy="115" r="5" fill="#38bdf8"/>
+    <path d="M 165 100 H 200 L 215 115 H 230" fill="none" stroke="#38bdf8" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="232" cy="115" r="5" fill="#38bdf8"/>
     
-    <path d="M 170 155 H 205 L 217 142" fill="none" stroke="#60a5fa" stroke-width="6" stroke-linecap="round"/>
-    <circle cx="220" cy="142" r="5" fill="#60a5fa"/>
+    <path d="M 170 155 H 205 L 217 142" fill="none" stroke="#60a5fa" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="219" cy="142" r="5" fill="#60a5fa"/>
 
     <!-- Code Bracket Symbol </> -->
-    <text x="195" y="188" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="900" fill="#38bdf8">&lt;/&gt;</text>
+    <text x="195" y="188" font-family="'JetBrains Mono', monospace" font-size="21" font-weight="900" fill="#38bdf8">&lt;/&gt;</text>
   </g>
 
   <!-- NUBEX Text -->
-  <text x="290" y="145" font-family="'Space Grotesk', 'Montserrat', sans-serif" font-size="96" font-weight="900" letter-spacing="4" fill="#f8fafc">NUBEX</text>
-  <text x="294" y="180" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="600" letter-spacing="6" fill="#94a3b8">SOFTWARE &amp; CLOUD</text>
+  <text x="265" y="134" font-family="'Space Grotesk', system-ui, sans-serif" font-size="68" font-weight="900" letter-spacing="2" fill="#f8fafc">NUBEX</text>
+  <text x="268" y="164" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" letter-spacing="4" fill="#38bdf8">SOFTWARE &amp; CLOUD</text>
+  <circle cx="480" cy="98" r="4" fill="#38bdf8"/>
 </svg>

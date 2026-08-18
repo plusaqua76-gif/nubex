@@ -1,7 +1,7 @@
 // Datos editables del sitio
 export const SITE = {
   name: "Nubex",
-  logoUrl: "https://res.cloudinary.com/uzu50olu/image/upload/f_auto,q_auto/Logo_Nubex",
+  logoUrl: "/nubex-logo-transparent.png",
   formacionUrl: "https://capacitaciones-codemakers.ai.studio/",
   email: "josechavarrorojas@gmail.com",
   contactPerson: "Jose Chavarro Rojas",
