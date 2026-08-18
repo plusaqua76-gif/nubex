@@ -21,7 +21,7 @@ const jsonLdData = {
       "@id": "https://nubex.co/#organization",
       name: "Nubex",
       legalName: "Nubex S.A.S.",
-      alternateName: ["Nubex", "Nubex S.A.S.", "Nubex Pitalito", "Code Makers", "Nubex Colombia"],
+      alternateName: ["Nubex", "Nubex S.A.S.", "Nubex Pitalito", "Nubex Colombia"],
       url: "https://nubex.co",
       logo: SITE.logoUrl,
       image: [SITE.logoUrl],
@@ -146,7 +146,7 @@ const jsonLdData = {
         {
           "@type": "Service",
           position: 5,
-          name: "Capacitaciones Tecnológicas Code Makers",
+          name: "Capacitaciones Tecnológicas Nubex",
           description:
             "Cursos y programas prácticos de entrenamiento en tecnologías de la información y programación.",
         },
@@ -231,12 +231,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Empresa líder en desarrollo de software a la medida en Colombia con +10 años de experiencia. Especialistas en Staff Augmentation, Fábrica de Software (.NET, Java, React, Node.js), CRM personalizado, Inteligencia de Negocios y Formación Tecnológica (Code Makers) en Pitalito, Huila.",
+          "Empresa líder en desarrollo de software a la medida en Colombia con +10 años de experiencia. Especialistas en Staff Augmentation, Fábrica de Software (.NET, Java, React, Node.js), CRM personalizado, Inteligencia de Negocios y Formación Tecnológica (Nubex) en Pitalito, Huila.",
       },
       {
         name: "keywords",
         content:
-          "desarrollo de software a la medida, fabrica de software colombia, staff augmentation colombia, outsourcing de desarrolladores, contratacion de programadores, crm a la medida, inteligencia de negocios colombia, business intelligence, capacitaciones tecnologicas, cursos de programacion pitalito, desarrollo web colombia, aplicaciones moviles, consultoria ti, empresa de tecnologia huila, desarrollo de software pitalito, software empresarial, nubex, nubex sas, code makers, programadores react node dotnet java",
+          "desarrollo de software a la medida, fabrica de software colombia, staff augmentation colombia, outsourcing de desarrolladores, contratacion de programadores, crm a la medida, inteligencia de negocios colombia, business intelligence, capacitaciones tecnologicas, cursos de programacion pitalito, desarrollo web colombia, aplicaciones moviles, consultoria ti, empresa de tecnologia huila, desarrollo de software pitalito, software empresarial, nubex, nubex sas, capacitaciones nubex, programadores react node dotnet java",
       },
       { name: "author", content: "Nubex" },
       {

@@ -451,7 +451,7 @@ function Index() {
                     <div className="flex flex-wrap items-center gap-3">
                       <span className="inline-flex items-center gap-1.5 rounded-xs border border-accent-ink bg-accent-ink/15 px-3 py-1 font-mono text-[11px] font-bold uppercase tracking-wider text-accent-ink shadow-xs">
                         <Sparkles size={13} className="animate-pulse" />
-                        Programa Destacado • Code Makers
+                        Programa Destacado • Nubex
                       </span>
                       <span className="font-mono text-xs text-muted-foreground">
                         {"< 05 / Capacitaciones />"}
@@ -731,7 +731,7 @@ function Index() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1 hover:text-accent-ink"
                     >
-                      Portal Code Makers <ArrowUpRight size={12} />
+                      Portal Nubex <ArrowUpRight size={12} />
                     </a>
                   </li>
                   <li>

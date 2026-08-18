@@ -15,7 +15,7 @@ Official web portal and service showcase for **Code Bug S.A.S.**, a Colombian so
 - **Enterprise Technical Visual Identity**: Modern, high-density layout featuring dark/light dynamic glassmorphism, monochrome precision, and electric blue tech accents (`#2563EB` / `#38BDF8`).
 - **Interactive Tech Canvas Grid**: Custom HTML5 Canvas engine rendering active particle scanlines and interactive hover nodes that react dynamically to user cursor movement.
 - **Service Portfolio & Capabilities**: Dedicated technical cards showcasing Staff Augmentation, Custom CRM Engineering, Business Intelligence, Software Factory (.NET, Java, React, Node.js), and Educational Training.
-- **Training Portal Integration**: Direct link to Code Bug's specialized training platform ([Capacitaciones Code Makers](https://capacitaciones.nubex.dev/)).
+- **Training Portal Integration**: Direct link to Nubex's specialized training platform ([Capacitaciones Nubex](https://capacitaciones.nubex.dev/)).
 - **Embedded Interactive Location Map**: Integrated Google Maps viewer featuring Code Bug's head office in Pitalito, Huila (*Carrera 15 # 19B - 15 SUR Piso 2, frente al C.C. Gran Plaza San Antonio*), complete with directions overlay and adaptive light/dark map themes.
 - **Adaptive Theme Engine**: Seamless toggle between Light Studio Mode and Ultra-Dark Matrix Mode with persisted preference and zero FOUT.
 - **Performance & Micro-Interactions**: Built on TanStack Router and Motion (Framer) for fluid section reveals, terminal-style typewriter headings, floating glyphs, and responsive navigation.
